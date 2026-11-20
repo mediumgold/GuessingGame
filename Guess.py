@@ -43,7 +43,7 @@ class Guess:
             else:
                 finished = self.guess_letter()
 
-            input("\nPress any key to continue... ")
+            input("\nPress any enter to continue... ")
             if finished:
                 self.games.append(self.game)
                 self.new_game()
